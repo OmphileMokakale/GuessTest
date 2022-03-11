@@ -23,7 +23,7 @@ describe('this test if  the number guessed by the user is equal to the one gener
             target = Math.floor(Math.random() * 100 + 1);
           };
 
-          assert.deepEqual(guesses, generateRandNum(100));
+          assert.deepEqual(guesses, generateRandNum(101));
        
 
       
@@ -35,6 +35,8 @@ describe('this test if  the number guessed by the user is equal to the one gener
         var generateRandNum = function (){
             target = Math.floor(Math.random() * 100 + 1);
           };
+
+          assert.deepEqual(guesses, generateRandNum(-1));
 
       
     });

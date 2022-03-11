@@ -3,16 +3,7 @@ module.exports = generateRandNum = function (){
     target = Math.floor(Math.random() * 100 + 1);
   
   //Creates empty 'previous guess' variable to track the last guess
-  var prevGuess = 0;
   
-  //Creates empty target variable
-  var target = 0;
-  //Creates empty array to track guesses
-  var guesses = [];
-  //Generates random number from 1-100 and sets target variable
-  
-  //Generates random number needed to start game
-  generateRandNum();
   
   //Updates 'previous guess' variable
   var updatePrevGuess = function(){
